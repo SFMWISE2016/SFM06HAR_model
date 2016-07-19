@@ -28,7 +28,7 @@ libname proj1 'Z:\SFM';
 
 /*import the data*/
 proc import out=proj1.RV
-datafile="Z:\SFM\OxfordManRealizedVolatilityIndices.csv"
+datafile="Z:\SFM\DJIA_for_SAS.csv"
 dbms=csv replace;
 run;
 
